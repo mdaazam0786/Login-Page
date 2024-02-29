@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: url("https://img.freepik.com/free-vector/cosmic-inspire-stunning-starry-night-sky-banner-with-mountain-stars_1017-43477.jpg?w=996&t=st=1709050930~exp=1709051530~hmac=0d9ca6abe67d154ccc81483969f7296ab8c9a3eb0cb5992bd76901ab8437634f");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+
+        #card {
+
+            padding-top: 10vh;
+            margin-top: 7vh;
+            height: 75vh;
+            width: 60vh;
+            background-color: white;
+            box-shadow: 5px 5px 10px #00317D;
+        }
+
+        #halfCard {
+            position: relative;
+            bottom: 110px;
+            height: 50%;
+            width: 100%;
+            background: linear-gradient(#00317D, #C74F57);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #welcome {
+            font-size: 50px;
+            color: white;
+        }
+
+        #login {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            bottom: 10vh;
+            font-size: 42px;
+        }
+
+        #input {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            bottom: 80px;
+        }
+
+        #username {
+            height: 35px;
+            width: 250px;
+            border-radius: 10px;
+            border-color: transparent;
+            background-color: #f4f4f4;
+        }
+
+        #password {
+            height: 35px;
+            width: 250px;
+            border-radius: 10px;
+            border-color: transparent;
+            background-color: #f4f4f4;
+        }
+
+        button {
+            position: relative;
+            left: 9em;
+            bottom: 40px;
+            height: 50px;
+            width: 200px;
+            border-radius: 20px;
+            background: linear-gradient(45deg, #00317D, #C74F57);
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body
+    background="https://img.freepik.com/free-vector/cosmic-inspire-stunning-starry-night-sky-banner-with-mountain-stars_1017-43477.jpg?w=996&t=st=1709050930~exp=1709051530~hmac=0d9ca6abe67d154ccc81483969f7296ab8c9a3eb0cb5992bd76901ab8437634f">
+    <div id="card">
+        <div id="halfCard">
+            <h1 id="welcome">Welcome Back</h1>
+        </div>
+        <h1 id="login">User Login</h1>
+        <div id="input">
+            <div>
+                <label for=""></label>
+                <i class="fa fa-user icon"></i>
+                <input type="text" placeholder="Enter Username" id="username" required>
+            </div>
+            <br>
+            <div>
+                <label for=""></label>
+                <i class="fa fa-lock icon"></i>
+                <input type="password" placeholder="Enter Password" id="password" required>
+            </div>
+        </div>
+        <button id="button"> Login</button>
+
+
+
+    </div>
+
+</body>
+
+</html>
